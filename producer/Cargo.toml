@@ -1,0 +1,13 @@
+[package]
+name = "producer"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+documentation.workspace = true
+edition.workspace = true
+
+[dependencies]
+rdkafka.workspace = true
+log.workspace = true
+env_logger.workspace = true
+anyhow.workspace = true
